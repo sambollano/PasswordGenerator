@@ -10,6 +10,6 @@ JavaScript Challenge: Password Generator
 ## Website
 
 ## Contribution
-Made with ❤️ by [Samantha Arellano]
+Made with ❤️ by Samantha Arellano
 
 ### ©️2019 PasswordGenerator
