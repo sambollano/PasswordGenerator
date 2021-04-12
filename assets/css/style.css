@@ -38,13 +38,10 @@ input[type="submit"] {
 .container {
     background-color: #f1f1f1;
     padding: 20px;
+    margin:auto;
+    text-align: center;
   }
   
-
-  footer {
-      color: #ccc;
-      position: relative;
-  }
 
 @media (max-width: 1090px) {
     .btn {

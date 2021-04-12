@@ -13,9 +13,30 @@
       <header>
         <h1>Random Password Generator</h1>
         <form action="/action_page.php">
-        <input type="text" name="" placeholder="Create Password" id="password">
+        <input type="text" name="" placeholder="" id="password">
         <input type="submit" value="Generate Password"/>
     </form>
+    <div>
+        <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>Lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>Capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>Number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 Characters</b></p>
+  <label class="container">Lowercase
+    <input type="checkbox" checked="checked">
+    <span class="checkmark"></span>
+  </label>
+  
+  <label class="container">Capital (Uppercase)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+  
+  <label class="container">Number
+    <input type="checkbox">
+    <span class="checkmark" ></span>
+  </label>
+    </div>
       </header>
       <div class="*">
         <div class="card-header"> 
