@@ -11,6 +11,10 @@ body {
     background-color: #ccc;
 }
 
+div {
+    padding:inherit;
+  }
+
 .input {
     width: 100%;
     padding: 12px;
