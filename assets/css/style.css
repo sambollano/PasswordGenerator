@@ -8,12 +8,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ccc;
+
 }
 
 div {
     padding:inherit;
   }
+
+div #button:active {
+    background-color: tomato;
+}
 
 .input {
     width: 100%;
@@ -36,25 +40,6 @@ input[type="submit"] {
     padding: 20px;
   }
   
-  .valid {
-    color: green;
-  }
-  
-  .valid:before {
-    position: relative;
-    left: -35px;
-    content: "&#10004;";
-  }
-
-  .invalid {
-    color: red;
-  }
-  
-  .invalid:before {
-    position: relative;
-    left: -35px;
-    content: "&#10006;";
-  }
 
   footer {
       color: #ccc;
