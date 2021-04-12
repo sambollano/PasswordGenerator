@@ -6,6 +6,7 @@ JavaScript Challenge: Password Generator
 ## Built With
 * HTML
 * CSS
+* JS
 
 ## Website
 
